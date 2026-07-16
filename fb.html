@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head><title>FB</title>
+        <style>
+            body{
+                margin:0;
+                height:100vh;
+            background:linear-gradient(135deg,#b61cbb, #61a3ee, #ed2741);
+            display:flex;
+             justify-content:center;
+            align-items:center;
+            color:white;
+            font-family:Arial;}
+            .box{
+                background:linear-gradient(145deg, rgba(40, 70, 180, 0.95), rgba(90, 120, 220, 0.9));
+                padding: 40px 30px;
+              padding: 40px 30px;
+                border-radius: 20px;
+                box-shadow: 0 15px 40px rgba(0, 0, 0, 0.6), 
+                        0 0 20px rgba(100, 150, 255, 0.3) ;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                width: 360px;
+             }
+            .box img{
+                width:100px;
+                height:100px;
+                margin-bottom:30px;
+            }
+            input{
+                 width: 100%;
+            height: 30px;
+            padding: 10px;
+            font-size: 15px;
+            margin-bottom:20px;
+            border-radius:10px; 
+            border:2px solid black;
+            }
+             .login-btn,.new-acc{
+                background-color:transparent;
+                color:white;
+                font-weight:bold;
+                font-size:16px;
+                cursor:pointer;
+                border:2px solid black;
+                border-radius:10px;
+                width:100%;
+                height:45px;
+                margin-bottom:20px;
+            }
+           .f-pass{
+            margin:10px 0 20px 0;
+            font-size:16px;
+            font-weight:bold;
+            display:flex;
+            align-items:center;
+            gap:10px;
+           }
+           .ch{
+            background: transparent;
+            border:none;
+            color:black;
+            cursor: pointer;
+            font-weight:bold;
+            font-size:16px;
+        }
+           </style>
+        </head>
+        <body>
+            <div class="box">
+           <center><img src="D:\VIP\fb.jpg" ></center>
+             <input type="text" placeholder="Mobile number or Email address">
+            <input type="password" placeholder="password">
+            <button class="login-btn" onclick="window.location.href='https://www.facebook.com/'">Log in</button>
+         <div class="f-pass">Forgetten Password?<button class="ch" onclick="window.open('https://www.facebook.com/recover/initiate', '_blank')">click here</button> 
+           </div> <button class="new-acc" onclick="window.location.href='https://www.facebook.com/'">create new account</button>
+        </div>
+        </body>
+        </html>
